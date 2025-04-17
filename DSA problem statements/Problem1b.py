@@ -14,7 +14,7 @@ class Car:
 def search_car_by_brand(cars, brand):
     return [car for car in cars if car.brand.lower() == brand.lower()]
 
-# Create a list of cars
+
 cars = [
     Car("Toyota", "Sedan", 2020, 25000),
     Car("Honda", "SUV", 2018, 40000),
@@ -23,7 +23,7 @@ cars = [
     Car("Honda", "Sedan", 2017, 60000)
 ]
 
-# Example usage
+
 brand_to_search = "Toyota"
 result = search_car_by_brand(cars, brand_to_search)
 
